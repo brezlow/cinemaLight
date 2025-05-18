@@ -186,7 +186,7 @@ export default function VideoPlayer() {
       style={{
         background: ambientLightEnabled ? ambientColor : "black",
         boxShadow: ambientLightEnabled ? `0 0 50px 5px ${ambientColor}` : "none",
-        padding: "20px",
+        padding: "0px",
       }}
     >
       <div className="relative bg-black rounded-lg overflow-hidden">
